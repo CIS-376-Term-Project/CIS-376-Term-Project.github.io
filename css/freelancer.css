@@ -2,6 +2,22 @@ body {
   font-family: 'Lato';
 }
 
+
+[data-letters]:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background:2c3e50;
+  vertical-align:middle;
+  margin-left:-12px;
+  margin-top:-7px;
+  color:white;
+  }
 h1,
 h2,
 h3,
